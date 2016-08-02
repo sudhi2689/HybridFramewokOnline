@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegresionSuite">
+  <test name="RegresionTest">
+    <classes>
+      <class name="testcases.VerifyLoginPageWithReport"/>
+      <class name="testcases.VerifyLoginPageWithReportNSShot"/>
+      <class name="testcases.VerifyHomePage"/>
+      <class name="testcases.VerifyLoginPage"/>
+    </classes>
+  </test> <!-- RegresionTest -->
+</suite> <!-- RegresionSuite -->
